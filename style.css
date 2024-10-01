@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  height: 3000px;
+    margin: 0;
+    padding: 0;
+  background: #111115;
+}
+
+
+header{
+  display: flex;
+  height: 39vw;
+}
+
+
+p{
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+header img{
+  position: absolute;
+  top: -17vw;
+  width: 100%;
+  z-index: -1;
+  
+}
+
+header h1{
+  color: red;
+  margin: 10% auto;
+  font-size: 15vw;
+  z-index: 1;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  text-shadow: 0 0 30px black;
+}
+
+nav{
+  background: linear-gradient(to bottom right, rgba(10, 50, 30, 0.2), rgba(10, 10, 60, 0.6)), url("https://cdn.glitch.global/1121f7bc-4df3-49d3-bbb4-84cac9961c52/image%20(3).jpg?v=1727377259955");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: center;
+  padding: 2%;
+}
+
+@media screen and (max-width: 800px){
+  nav{
+    background-size: 260%;
+  }
+}
+
+nav ul li{
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.1em;
+  font-size: max(2em, 4vw);
+  font-weight: 600;
+  font-style: normal;
+  height: min-content;
